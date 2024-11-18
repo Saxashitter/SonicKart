@@ -5,7 +5,7 @@ local player_scripts = {
 }
 
 addHook("MapChange", do
-	SK.gameInit()
+	SK:gameInit()
 end)
 
 addHook("PlayerThink", function(p)
